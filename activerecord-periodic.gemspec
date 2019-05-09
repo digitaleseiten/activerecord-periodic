@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {spec}/*`.split("\n")
 
-  s.add_runtime_dependency "chronic", '~> 0.6.3'
+  s.add_runtime_dependency "chronic", '~> 0.10.2'
   s.add_development_dependency "activerecord"
   s.add_development_dependency "rspec"
   s.add_development_dependency "factory_girl"
